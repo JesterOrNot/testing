@@ -11,6 +11,13 @@ class Main {
         }
         return treeTraverse(target, theTree, current);
     }
+    static List<Node> assembleNodeList(List<Double> items) {
+        ArrayList<Node> nodelist = new ArrayList<Node>();
+        for (int i = 0; i < items.size(); i++) {
+            nodelist.add(new Node(items.get(i)));
+        }
+        return nodelist;
+    }
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         double targetVal = 0.5;
