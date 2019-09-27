@@ -18,6 +18,13 @@ class Main {
         }
         return nodelist;
     }
+    static Queue assembleQueue(List<Node> nodelist) {
+        Queue<Node> queue = new LinkedList();
+        for (int i = 0;i<nodelist.size();i++) {
+            queue.add(nodelist.get(i));
+        }
+        return queue;
+    }
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         double targetVal = 0.5;
