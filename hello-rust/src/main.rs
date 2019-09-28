@@ -1,6 +1,6 @@
 use rand::Rng;
-use std::io;
 use std::cmp::Ordering;
+use std::io;
 fn main() {
     let secret_number = rand::thread_rng().gen_range(1, 10);
     println!("Welcome to the guessing game!");
