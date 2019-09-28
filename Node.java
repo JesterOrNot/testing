@@ -1,8 +1,8 @@
-class Node { 
+class Node {
 	double value;
-	Node left, right; 
-	public Node(double item) { 
+	Node left, right;
+	public Node(double item) {
 		value = item;
-		left = right = null; 
-	} 
+		left = right = null;
+	}
 }

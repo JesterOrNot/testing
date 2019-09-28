@@ -1,7 +1,7 @@
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 class Main {
     static boolean treeTraverse(double target, BinaryTree theTree, Node current) {
@@ -36,7 +36,7 @@ class Main {
         if (tree.root == null) {
             tree.root = queue.peek();
             queue.remove();
-        } 
+        }
         Node item = queue.peek();
         if (item.value < current.value) {
             current.left = item;
