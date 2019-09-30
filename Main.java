@@ -1,4 +1,6 @@
 import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.ArrayList;
 class Main {
     static boolean treeTraverse(double target,BinaryTree theTree,Node current) {
@@ -29,7 +31,7 @@ class Main {
         BinaryTree tree = new BinaryTree();
         double targetVal = 0.5;
         tree.root = new Node(5);
-        turee.root.left = new Node(3);
+        tree.root.left = new Node(3);
         tree.root.right = new Node(7);
         tree.root.left.left = new Node(1);
         tree.root.left.left.left = new Node(0.5);

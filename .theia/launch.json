@@ -3,12 +3,26 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-        {
-            "type": "java",
-            "name": "Debug (Attach)",
-            "request": "attach",
-            "hostName": "localhost",
-            "port": 0
-        }
+      {
+          "name": "Go Debugger",
+          "type": "go",
+          "request": "launch",
+          "mode": "debug",
+          "program": "${file}"
+      },
+      {
+          "type": "java",
+          "name": "Java Debugger",
+          "request": "launch",
+          "mainClass": "",
+          "console": "internalConsole"
+      },
+      {
+          "name":"Python debugger",
+          "type":"python",
+          "request":"launch",
+          "program":"${file}",
+          "console":"internalConsole"
+      },
   ]
 }
