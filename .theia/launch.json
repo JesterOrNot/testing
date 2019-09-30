@@ -3,6 +3,12 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-  
+      {
+          "type": "java",
+          "name": "debug java",
+          "request": "attach",
+          "hostName": "localhost",
+          "port": 9
+      }
   ]
 }

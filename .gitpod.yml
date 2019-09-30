@@ -9,3 +9,6 @@ ports:
 tasks:
 - init: echo 'init script' # runs during prebuild
   command: echo 'start script'
+vscode:
+  extensions:
+    - vscode-icons-team.vscode-icons@9.2.0:Ijpf7hzDdyz46hvWWPc41Q==
