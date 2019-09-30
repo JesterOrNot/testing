@@ -1,4 +1,4 @@
-FROM gcr.io/cloudshell-images/cloudshell:latest
+FROM gitpod/workspace-full
 
 USER root
 
