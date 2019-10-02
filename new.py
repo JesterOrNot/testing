@@ -1,10 +1,9 @@
 import json
-x = {"hello":33,"new":2019}
+import math
+dict1 = {}
+z = 2**2 + 5 + math.sqrt(16)
+v = "Hello world from JSON"
+dict1.update({"z":z})
+dict1.update({"Hello":v})
 with open("new.json",'w+') as write_file:
-    json.dump(x,write_file,indent=4)
-with open("new.json","r") as read_file:
-    data = json.load(read_file)
-z = data.get("hello")
-b = data.get('new')
-print(z)
-print(b)
+    json.dump(dict1,write_file,indent=4)

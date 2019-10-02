@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.101" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspace/testing/my-app/target/test-classes:/workspace/testing/my-app/target/classes:/workspace/m2-repository/junit/junit/4.11/junit-4.11.jar:/workspace/m2-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/workspace/m2-repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/workspace/testing/my-app/target/surefire/surefirebooter4292794331704915129.jar /workspace/testing/my-app/target/surefire 2019-10-02T01-02-55_475-jvmRun1 surefire1554005962490597472tmp surefire_06444768091476700316tmp"/>
+    <property name="surefire.test.class.path" value="/workspace/testing/my-app/target/test-classes:/workspace/testing/my-app/target/classes:/workspace/m2-repository/junit/junit/4.11/junit-4.11.jar:/workspace/m2-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/workspace/m2-repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/gitpod"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre"/>
+    <property name="basedir" value="/workspace/testing/my-app"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspace/testing/my-app/target/surefire/surefirebooter4292794331704915129.jar"/>
+    <property name="sun.boot.class.path" value="/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/resources.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/rt.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/sunrsasign.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/jsse.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/jce.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/charsets.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/jfr.jar:/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b05"/>
+    <property name="user.name" value="gitpod"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-1034-gke"/>
+    <property name="java.endorsed.dirs" value="/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/workspace/m2-repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/workspace/testing/my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.202-b05"/>
+    <property name="java.ext.dirs" value="/home/gitpod/.sdkman/candidates/java/8.0.202-zulufx/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.002"/>
+</testsuite>
