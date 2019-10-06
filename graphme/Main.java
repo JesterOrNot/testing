@@ -17,6 +17,9 @@ public class Main {
                 }
             }
         });
+        frame.add(button);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
         // ProcessBuilder pb = new ProcessBuilder("python3","graph.py");
         // try {
 		// 	Process p = pb.start();
