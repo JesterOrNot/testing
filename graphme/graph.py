@@ -6,14 +6,14 @@ def graph():
     z = []
     for line in fileinput.input("stdin.txt"):
         z.append(line.rstrip())
-    v = [list(i) for i in z]
-    v = [[i for i in v[i] if i != ","] for i in range(0,len(v))]
-    x = v[0]
-    y = v[1]
+    z1 = z[0]
+    z2 = z[1]
+    x = z1.split(",")
+    y = z2.split(",")
     x = [float(i) for i in x]
     y = [float(i) for i in y]
     plt.plot(x,y)
-    plt.savefig("S.png")
-    os.system("mv S.png images")
+    plt.savefig("graph.png")
+    os.system("mv graph.png images")
 
 graph()
