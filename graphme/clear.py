@@ -1,2 +1,2 @@
-with open("x.txt","w") as file:
+with open("stdin.txt","w") as file:
     file.truncate()
