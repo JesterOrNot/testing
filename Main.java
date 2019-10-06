@@ -30,6 +30,7 @@ class Main {
         return queue;
     }
     static BinaryTree assembleTree(Queue<Node> queue,BinaryTree tree,Node current) {
+        Node item = queue.peek();
         if (queue.isEmpty()) {
             return tree;
         }
@@ -37,7 +38,6 @@ class Main {
             tree.root = queue.peek();
             queue.remove();
         }
-        Node item = queue.peek();
         if (item.value < current.value) {
             current.left = item;
             queue.remove();
