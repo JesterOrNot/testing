@@ -2,8 +2,15 @@ import java.io.IOException;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class Main {
+public class Main extends Canvas{
+
+    public void paint(Graphics g) {
+        Toolkit t=Toolkit.getDefaultToolkit();
+        Image i=t.getImage("images/graph.png");
+        g.drawImage(i, 0,0,this);
+    }
     public static void main(String[] args) {
+        // Main main = new Main();
         JFrame frame = new JFrame("Grapher");
         JButton button = new JButton("Submit");
         JPanel panel = new JPanel();
@@ -16,10 +23,15 @@ public class Main {
                     // Auto-generated catch block
                     e.printStackTrace();
                 }
+                Main main1 = new Main();
+                frame.add(main1);
+                frame.setVisible(true);
             }
         });
+        // frame.add(main);
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         panel.add(button);
+        frame.setSize(400,400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
