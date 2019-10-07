@@ -26,6 +26,7 @@ public class Main extends Canvas{
                 }
                 Main main = new Main();
                 frame.add(main);
+                frame.setVisible(true);
             }
         });
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
