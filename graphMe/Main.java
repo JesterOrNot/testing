@@ -12,7 +12,6 @@ public class Main extends Canvas{
 
     }
     public static void main(String[] args) {
-        Main main = new Main();
         JFrame frame = new JFrame("Grapher");
         JButton button = new JButton("Submit");
         JPanel panel = new JPanel();
@@ -27,13 +26,12 @@ public class Main extends Canvas{
                 }
                 Main main = new Main();
                 frame.add(main);
-                frame.setVisible(true);
             }
         });
-        frame.add(main);
         frame.getContentPane().add(BorderLayout.SOUTH, panel);
         panel.add(button);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
         frame.setVisible(true);
     }
 }
