@@ -7,8 +7,7 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
-- init: echo 'init script' # runs during prebuild
-  command: echo 'start script'
+- init: pip3 install matplotlib
 vscode:
   extensions:
     - vscode-icons-team.vscode-icons@9.2.0:Ijpf7hzDdyz46hvWWPc41Q==
